@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gadoglio <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gadoglio <gadoglio@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/27 17:33:16 by gadoglio          #+#    #+#             */
-/*   Updated: 2020/03/04 17:04:37 by gadoglio         ###   ########.fr       */
+/*   Updated: 2020/03/06 19:55:19 by gadoglio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int		main()
 	int	value;
 	char *line;
 
-	fd = open("normal.txt", O_RDONLY);
+	fd = open("test.txt", O_RDONLY);
 
 	value = 1;
 	while (value == 1)
